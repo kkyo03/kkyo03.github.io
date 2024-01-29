@@ -1,0 +1,20 @@
+body{
+    overflow: hidden;
+} 
+
+.image{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+.image img{
+    width: 100vw;
+    height: 100vh;
+}
+
+.image h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

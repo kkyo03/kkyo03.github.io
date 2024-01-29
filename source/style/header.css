@@ -1,0 +1,139 @@
+body{
+    background-color: #001163;
+    overflow-x: hidden;
+}
+
+.topbar{
+    width: 100vw;
+    position: relative;
+    background-color: #18009E;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo #logo1{
+    margin-top: 10px;
+}
+
+.logo #logo2{
+    position: absolute;
+    top: 0;
+}
+
+.topbar__navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.search{
+    padding: 10px 0px 10px 10px;
+    left: 130px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search #search-input{
+    width: 350px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    text-decoration: none;
+    text-transform: 0;
+    outline: 0;
+}
+
+.search .ss{
+    background-color: #731AD2;
+    border-radius: 0 5px 5px 0;
+    width: 35px;
+    height: 32.1px;
+    cursor: pointer;
+} 
+
+.search .fa{
+    display: flex;
+    justify-content: center;
+   padding-top: 7px;
+   color: white;
+}
+
+.link:visited{
+    text-decoration: none;
+}
+
+.ss:hover{
+    background: #9a3bff;
+    transition: background 1s;
+}
+
+.navigation{
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    right: 50px;
+}
+
+.link{
+    text-decoration: none;
+    border: none;
+}
+
+.button{
+    margin-left: 10px;
+    font-family: sans-serif;
+    width: 160px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 20px;
+    user-select: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #731AD2, #02CDFF);
+    border: 0;
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+    box-shadow: 5px 5px 2px #349dff;
+}
+
+.button:hover{
+    background: linear-gradient(to right, #9a3cff, #46d7fc);
+    transition: background 1s;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 30px;
+}
+
+.footer-container .github{
+    padding: 0 10px 0 10px;
+}
+
+.footer-container .github a{
+   text-decoration: none;
+   color: white;
+}
+
+.footer-container .discord{
+    padding: 0 10px 0 10px;
+}
+
+.footer-container .discord a{
+   text-decoration: none;
+   color: white;
+}
+
+.footer-container .instagram{
+    padding: 0 10px 0 10px;
+}
+
+.footer-container .instagram a{
+   text-decoration: none;
+   color: white;
+}

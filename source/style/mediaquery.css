@@ -1,0 +1,145 @@
+@media  screen and (max-width: 1023px){
+   
+    body,html{
+        height: 100%;
+        width: 100%;
+        background-color: #001163;
+        overflow-x: hidden;
+    }
+
+    .topbar{
+        width: 100vw;
+        position: relative;
+        background-color: #18009E;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .topbar__navigation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .search{
+        padding: 50px 0px 10px 10px;
+        left: 0px;
+        position: relative;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .search #search-input{
+        width: 220px;
+        height: 20px;
+        border: 0;
+        border-radius: 5px 0 0 5px;
+        text-decoration: none;
+        text-transform: 0;
+        outline: 0;
+    }
+    
+    .search .ss{
+        background-color: #731AD2;
+        border-radius: 0 5px 5px 0;
+        width: 25px;
+        height: 22.1px;
+        cursor: pointer;
+    } 
+    
+    .l{
+        position: relative;
+        padding: 10px 10px 10px 10px; 
+        display: flex;
+        justify-content: space-between;
+        top: 100px;
+        right: 330px;
+    }
+    
+    .button{
+        font-family: sans-serif;
+        width: 140px;
+        height: 40px;
+        line-height: 30px;
+        text-align: center;
+        font-weight: 500;
+        border-radius: 20px;
+        user-select: none;
+        cursor: pointer;
+        background: linear-gradient(to right, #731AD2, #02CDFF);
+        border: 0;
+        text-decoration: none;
+        text-transform: none;
+        color: white;
+        box-shadow: 5px 5px 2px #349dff;
+    }
+    
+
+
+
+    .grid{
+
+    }
+    
+    
+    .main-container{
+        margin-top: 100px;
+        display: block;
+    }
+    
+    .image{
+        margin-right: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .image img{
+        width: 320px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 10px 6px 4px 0px rgba(0, 0, 0, 0.30);
+    }
+    
+    .text{
+        margin-left: 10px;
+    }
+    
+    .text .lorem{
+        margin-top: 20px;
+        background-color: #731AD2;
+        border-radius: 10px;
+        padding: 12px 12px 12px 12px;
+        width: 300px;
+        height: 100px;
+        box-shadow: 10px 6px 4px 0px rgba(0, 0, 0, 0.30);
+    }
+    
+    .text .lorem p{
+        color: white;
+        font-family: sans-serif;
+        font-size: 9px;
+        font-weight: 100;
+    }
+    
+    .know{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .know button{
+        margin-top: 20px;
+        width: 170px;
+        height: 51px;
+        border-radius: 12px;
+    }
+    
+    .footer-container{
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 30px;
+        margin-bottom: 50px;
+    }
+
+}

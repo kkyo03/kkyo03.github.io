@@ -1,0 +1,46 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.image img{
+    border-radius: 30px;
+    padding: 20px 0 0 20px;  
+    box-shadow: 10px 6px 4px 0px rgba(0, 0, 0, 0.30);
+}
+
+.text{
+    padding: 20px 0 0 20px;
+}
+
+.text .lorem{
+    background-color: #731AD2;
+    border-radius: 20px;
+    padding: 12px 12px 12px 12px;
+    width: 500px;
+    height: 300px;
+    box-shadow: 10px 6px 4px 0px rgba(0, 0, 0, 0.30);
+}
+
+.text .lorem p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.know{
+    display: flex;
+    justify-content: space-around;
+}
+
+.know button{
+    width: 180px;
+    height: 61px;
+    border-radius: 12px;
+}
